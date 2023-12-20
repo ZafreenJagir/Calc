@@ -59,8 +59,12 @@ Publish the website in the given URL.
     <button data-number>8</button>
     <button data-number>9</button>
     <button data-operation>-</button>
-    <button data-number>.</button>
-    <button data-number>0</button>
+    <button date-operation>%</button>
+    <button date-operation>sin</button>
+    <button data-operation>cos</button>
+    <button data-operation>tan</button>
+    <button data-operation>.</button>
+    <button data-operation>0</button>
     <button data-equals class="span-two">=</button>
   </div>
 </body>
@@ -214,9 +218,9 @@ body {
   display: grid;
   justify-content: center;
   align-content: center;
-  min-height: 100vh;
-  grid-template-columns: repeat(4, 100px);
-  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  min-height: 90vh;
+  grid-template-columns: repeat(4, 90px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 90px);
 }
 
 .calculator-grid > button {
@@ -261,9 +265,9 @@ body {
 ```
 ## OUTPUT:
 
-![Screenshot (54)](https://github.com/ZafreenJagir/Calc/assets/144870573/422ee1f6-9ff5-4943-8728-14f038a99171)
+![Screenshot (55)](https://github.com/ZafreenJagir/Calc/assets/144870573/af83bfa8-bf47-4b3a-bc63-2a4eb54c18c7)
+![Screenshot (56)](https://github.com/ZafreenJagir/Calc/assets/144870573/127d7801-6cd9-4a01-88a1-057a941debc4)
 
-![image](https://github.com/ZafreenJagir/Calc/assets/144870573/3adacd61-49a0-4801-a3cd-d5c8c071b281)
 
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
